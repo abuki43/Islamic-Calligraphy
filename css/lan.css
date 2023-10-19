@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(48, 126, 126);
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/abdullah-oguk-stdES6XkQPo-unsplash.jpg); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box{
+    padding: 1rem;
+    width: 330px;
+    height: 160px;
+    box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5), -2px -3px 5px rgba(0, 0, 0, .15);
+    border-radius: 0.35rem;
+    /* background-color: azure; */
+    backdrop-filter: blur(6px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: 1px solid #c0ac47;
+    outline: none;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, .15);
+    margin-right: 13px;
+    margin-top: 1rem;
+    font-size: 1.04rem;
+}
+button:hover{
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, .3);
+    background-color: #d3d3c7;
+    cursor: pointer;
+}
+h2{
+    padding-bottom: .5rem;
+    color: white;
+    font-family: sans-serif;
+}
+@media (max-width:600px){
+    main{
+        background-image: url(../img/2589683.jpg);
+    }
+}
